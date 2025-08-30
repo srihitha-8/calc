@@ -1,0 +1,40 @@
+body{
+    background-color: #11001c;
+}
+.num{
+    width: 40px;
+    padding: 10px;
+    background-color: whitesmoke ;
+    border-color: #003356;
+    margin: 10px;
+}
+.main{
+    background-color : #0b525b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 340px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.result{
+    width: 280px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    border: 1px solid black; /* Add a border to make it visible */
+    background-color: lightgray;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
